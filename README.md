@@ -1,16 +1,36 @@
 # 洪子祥 前端作品集
 
-## 在 VS Code 預覽
-1. 用 VS Code 開啟此資料夾(檔案 > 開啟資料夾)
+個人作品集網站,整理我的前端專案、技能與聯絡方式。
+
+🔗 **線上網站:[hthoftt.github.io](https://hthoftt.github.io/)**
+
+## 網站內容
+- 關於我與技能
+- 精選作品(附 Demo 與 GitHub 連結)
+- 更多練習專案
+
+## 設計重點
+- 黑白灰配色,版面簡潔,以內容為主
+- RWD:支援桌機、平板與手機
+- 純 HTML 與 CSS,不依賴框架,載入快速
+
+## 使用技術
+- HTML
+- CSS
+- GitHub Pages(部署)
+
+## 專案結構
+├── index.html 頁面內容
+├── style.css 樣式
+└── img/ 個人照與作品截圖
+
+## 本機預覽
+1. 用 VS Code 開啟專案資料夾
 2. 安裝外掛 Live Server
-3. 對 index.html 按右鍵 > Open with Live Server
+3. 對 `index.html` 按右鍵,選 Open with Live Server
 
-## 檔案說明
-- index.html:頁面內容
-- style.css:樣式(顏色、字體、版面)
-- img/:作品截圖(project-1~3 依序為借我穿一下、畫作展、六角西餐廳)
+## 部署
+推送到 `main` 分支後,由 GitHub Pages 自動發布,通常一到兩分鐘後生效。
 
-## 部署到 GitHub Pages
-1. 在 GitHub 建立 repo(名稱 hthoftt.github.io 可直接當個人首頁)
-2. 把這些檔案上傳到 repo 根目錄
-3. Settings > Pages > Branch 選 main,儲存後等一兩分鐘即可開啟
+## 聯絡我
+洪子祥 · [GitHub](https://github.com/hthoftt) · tonyhung92568@gmail.com
