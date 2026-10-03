@@ -42,7 +42,7 @@ footer{padding:36px 0;border-top:1px solid var(--line);color:var(--mute);font-si
 footer a{color:var(--fg)}
 .hero-grid{display:grid;grid-template-columns:minmax(0,416px) 1fr;grid-template-rows:auto auto;column-gap:56px}
 .hero-top{grid-column:1;grid-row:1}.hero-rest{grid-column:1;grid-row:2}
-.photo{grid-column:2;grid-row:1;justify-self:end;width:215px;margin:0 14px 0 0;align-self:stretch;background:linear-gradient(135deg,#efefef,#d9d9d9);display:flex;align-items:center;justify-content:center;color:#8a8a8a;font-size:13px;letter-spacing:.2em;overflow:hidden;border:1px solid var(--line)}
+.photo{grid-column:2;grid-row:1;justify-self:end;width:215px;margin:0 14px 0 0;align-self:stretch;background:linear-gradient(135deg,#efefef,#d9d9d9);display:flex;align-items:center;justify-content:center;color:#8a8a8a;font-size:13px;letter-spacing:.2em;overflow:hidden;border:1px solid var(--line);border-radius: 10%;}
 .photo img{width:100%;height:100%;object-fit:cover;display:block;object-position: right center;}
 .card.todo{border-style:dashed;box-shadow:none}
 .card.todo:hover{transform:none;box-shadow:none}
