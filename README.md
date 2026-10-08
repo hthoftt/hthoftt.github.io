@@ -25,6 +25,7 @@
 - index.html 頁面內容(含作品 GIF 預覽與複製 email 的小段 JavaScript)
 - style.css 樣式
 - img/ 個人照與作品截圖
+- resume.pdf 公開版履歷(已隱藏電話與地址)
 
 ## 本機預覽
 1. 用 VS Code 開啟專案資料夾
