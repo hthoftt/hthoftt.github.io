@@ -65,14 +65,13 @@ a { color: inherit; }
 .hero-meta span:first-child { color: var(--accent); }
 .hero-main { display: grid; grid-template-columns: 1fr 300px; gap: 56px; align-items: end; padding: 56px 0 48px; }
 .hero h1 { margin: 0 0 28px; line-height: 1; font-weight: 900; letter-spacing: -0.02em; }
-.hero h1 .name { display: block; font-size: clamp(56px, 11vw, 132px); }
-.hero h1 .role { display: block; font-size: clamp(36px, 6.4vw, 76px); margin-top: 10px; font-weight: 700; }
+.hero h1 .name { display: block; font-size: clamp(45px, 8.8vw, 106px); }
+.hero h1 .role { display: block; font-size: clamp(29px, 5.1vw, 61px); margin-top: 10px; font-weight: 700; }
 .hero h1 em { font-style: normal; color: var(--accent); }
 .lead { font-size: clamp(16px, 1.9vw, 20px); color: var(--mute); margin: 0 0 32px; max-width: 520px; padding-left: 16px; border-left: 3px solid var(--accent); }
 .portrait { margin: 0; position: relative; }
 .portrait-frame { position: relative; aspect-ratio: 4 / 5; overflow: hidden; border: 1.5px solid var(--ink); background: var(--card); }
-.portrait-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center top; filter: grayscale(1) contrast(1.05); transition: filter 0.4s; }
-.portrait:hover .portrait-frame img { filter: none; }
+.portrait-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
 /* 裁切角標 */
 .portrait::before, .portrait::after { content: ""; position: absolute; width: 18px; height: 18px; border: 1.5px solid var(--accent); z-index: 1; }
 .portrait::before { top: 14px; left: -9px; border-right: 0; border-bottom: 0; }
@@ -91,7 +90,7 @@ a { color: inherit; }
 .spec span { font-size: 13px; color: var(--mute); }
 
 /* ===== 區塊標題 ===== */
-section { padding: 88px 0; }
+section { padding: 44px 0; }
 .sh { display: grid; grid-template-columns: auto 1fr auto; align-items: end; gap: 18px; padding-bottom: 14px; margin-bottom: 44px; border-bottom: 1.5px solid var(--ink); }
 .sh-no { font-size: 13px; color: var(--accent); padding-bottom: 6px; }
 .sh h2 { margin: 0; font-size: clamp(28px, 4vw, 40px); font-weight: 900; line-height: 1.1; }
@@ -214,7 +213,7 @@ section { padding: 88px 0; }
   .br-d { display: none; }
   .spec { grid-template-columns: 1fr; }
   .spec > div + div { border-left: 0; border-top: 1px solid var(--line); }
-  section { padding: 64px 0; }
+  section { padding: 32px 0; }
   .sh-en { display: none; }
   .sh { grid-template-columns: auto 1fr; }
   .skills { grid-template-columns: 1fr; }
