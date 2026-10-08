@@ -4,6 +4,8 @@
 
 🔗 **線上網站:[hthoftt.github.io](https://hthoftt.github.io/)**
 
+![作品集首頁](./docs/screenshot.jpg)
+
 ## 網站內容
 - 關於我與技能
 - 精選作品(附 Demo 與 GitHub 連結)
