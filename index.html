@@ -22,287 +22,274 @@
     />
     <meta property="og:image" content="https://hthoftt.github.io/img/og.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+TC:wght@400;500;700;900&display=swap"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="wrap">
-      <nav>
-        <a href="#">HTHOFTT</a>
-        <div>
+      <nav class="nav">
+        <a class="logo" href="#top"><span class="logo-mark">H</span>HTHOFTT</a>
+        <div class="nav-links">
           <a href="#about">關於</a><a href="#skills">技能</a
           ><a href="#projects">作品</a><a href="#contact">聯絡</a>
         </div>
       </nav>
 
-      <header class="hero">
-        <div class="hero-grid">
-          <div class="hero-top">
-            <p class="eyebrow">FRONT-END DEVELOPER</p>
-            <h1>洪子祥<br />前端工程師</h1>
-          </div>
-          <div class="photo">
-            <img src="./img/hthoftt.jpg" alt="洪子祥" />
-          </div>
-          <div class="hero-rest">
-            <p>4 年營造工程經驗轉職,用 React 把複雜流程做成好用的介面。</p>
-            <a class="btn p" href="#projects">查看作品</a
-            ><a
-              class="btn"
-              href="https://github.com/hthoftt"
-              target="_blank"
-              rel="noopener"
-              >GitHub</a
-            ><a class="btn" href="#contact">聯絡我</a>
-            <!-- 履歷 PDF:檔案放到 resume.pdf 後取消註解 -->
-            <!-- <a class="btn" href="./resume.pdf" target="_blank" rel="noopener">履歷 PDF</a> -->
-          </div>
+      <header class="hero" id="top">
+        <div class="hero-meta mono">
+          <span>SHEET A-01</span><span>FRONT-END DEVELOPER</span
+          ><span>PORTFOLIO 2026</span>
         </div>
-        <ul class="stats">
-          <li><b>4 年</b><span>營造工程經驗</span></li>
-          <li><b>2 個</b><span>完整電商專案(前台 + 後台)</span></li>
-          <li><b>15.6→0.8 MB</b><span>首頁圖片效能優化</span></li>
-        </ul>
+        <div class="hero-main">
+          <div class="hero-text">
+            <h1>
+              <span class="name">洪子祥</span>
+              <span class="role">前端<em>工程師</em></span>
+            </h1>
+            <p class="lead">
+              4 年營造工程經驗轉職,<br class="br-d" />用 React
+              把複雜流程做成好用的介面。
+            </p>
+            <div class="cta">
+              <a class="btn btn-solid" href="#projects">查看作品 <i>↓</i></a
+              ><a
+                class="btn"
+                href="https://github.com/hthoftt"
+                target="_blank"
+                rel="noopener"
+                >GitHub ↗</a
+              ><a class="btn" href="#contact">聯絡我</a>
+              <!-- 履歷 PDF:檔案放到 resume.pdf 後取消註解 -->
+              <!-- <a class="btn" href="./resume.pdf" target="_blank" rel="noopener">履歷 PDF ↗</a> -->
+            </div>
+          </div>
+          <figure class="portrait">
+            <span class="dim dim-x mono">215</span>
+            <div class="portrait-frame">
+              <img src="./img/hthoftt.jpg" alt="洪子祥" />
+            </div>
+            <figcaption class="mono">FIG.01 — HUNG TZU-HSIANG</figcaption>
+          </figure>
+        </div>
+        <dl class="spec">
+          <div>
+            <dt class="mono">EXPERIENCE</dt>
+            <dd><b>4</b><span>年營造工程經驗</span></dd>
+          </div>
+          <div>
+            <dt class="mono">PROJECTS</dt>
+            <dd><b>2</b><span>個完整電商專案(前台 + 後台)</span></dd>
+          </div>
+          <div>
+            <dt class="mono">PERFORMANCE</dt>
+            <dd><b>−95%</b><span>首頁圖片 15.6MB → 0.8MB</span></dd>
+          </div>
+        </dl>
       </header>
 
-      <section id="about">
-        <div class="sec">
+      <section id="about" class="reveal">
+        <div class="sh">
+          <span class="sh-no mono">01</span>
           <h2>關於我</h2>
-          <div>
-            <p class="about">
-              曾任營造業工程師四年,習慣在時程與品質的壓力下和不同角色協調,並對成果負責。轉入前端後,把這份嚴謹帶進開發:重視清楚的程式結構、穩定的使用者體驗,以及別人接手也看得懂的文件。
-            </p>
-            <h3 class="sub">從工地到前端</h3>
-            <ul class="bridge">
-              <li>
-                <b>照圖施工</b><i>→</i><span>依設計稿與規格精準實作,注意細節</span>
-              </li>
-              <li>
-                <b>進度控管</b><i>→</i><span>拆解任務、預估時程、準時交付</span>
-              </li>
-              <li>
-                <b>跨單位協調</b><i>→</i
-                ><span>與 PM、設計師、後端溝通需求</span>
-              </li>
-              <li>
-                <b>品管與文件</b><i>→</i
-                ><span>寫清楚的 README、commit 與 PR 說明</span>
-              </li>
-            </ul>
+          <span class="sh-en mono">ABOUT</span>
+        </div>
+        <div class="about-grid">
+          <p class="about">
+            曾任營造業工程師四年,習慣在時程與品質的壓力下和不同角色協調,並對成果負責。轉入前端後,把這份嚴謹帶進開發:重視清楚的程式結構、穩定的使用者體驗,以及別人接手也看得懂的文件。
+          </p>
+          <div class="bridge">
+            <div class="bridge-head mono"><span>工地</span><span>前端</span></div>
+            <div class="bridge-row">
+              <b>照圖施工</b><i></i><span>依設計稿與規格精準實作,注意細節</span>
+            </div>
+            <div class="bridge-row">
+              <b>進度控管</b><i></i><span>拆解任務、預估時程、準時交付</span>
+            </div>
+            <div class="bridge-row">
+              <b>跨單位協調</b><i></i><span>與 PM、設計師、後端溝通需求</span>
+            </div>
+            <div class="bridge-row">
+              <b>品管與文件</b><i></i><span>寫清楚的 README、commit 與 PR 說明</span>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="skills">
-        <div class="sec">
+      <section id="skills" class="reveal">
+        <div class="sh">
+          <span class="sh-no mono">02</span>
           <h2>技能</h2>
+          <span class="sh-en mono">SKILLS</span>
+        </div>
+        <div class="skills">
           <div class="sk">
-            <div>
-              <b>語言與基礎</b
-              ><span>JavaScript (ES6+) · HTML · CSS · SCSS · RWD</span>
-            </div>
-            <div>
-              <b>React 生態系</b
-              ><span>React · React Router · Redux Toolkit · React Hook Form</span>
-            </div>
-            <div>
-              <b>串接與資料</b
-              ><span>axios · RESTful API · Token 驗證 · CRUD 後台</span>
-            </div>
-            <div>
-              <b>工具</b
-              ><span>Git / GitHub · Vite · ESLint · Bootstrap 5 · GitHub Pages</span>
-            </div>
-            <div class="next">
-              <b>正在學習</b><span>TypeScript · Tailwind CSS · Next.js</span>
-            </div>
+            <h3 class="mono">LANGUAGE</h3>
+            <p>語言與基礎</p>
+            <ul><li>JavaScript (ES6+)</li><li>HTML</li><li>CSS</li><li>SCSS</li><li>RWD</li></ul>
+          </div>
+          <div class="sk">
+            <h3 class="mono">REACT</h3>
+            <p>React 生態系</p>
+            <ul><li>React</li><li>React Router</li><li>Redux Toolkit</li><li>React Hook Form</li></ul>
+          </div>
+          <div class="sk">
+            <h3 class="mono">DATA</h3>
+            <p>串接與資料</p>
+            <ul><li>axios</li><li>RESTful API</li><li>Token 驗證</li><li>CRUD 後台</li></ul>
+          </div>
+          <div class="sk">
+            <h3 class="mono">TOOLING</h3>
+            <p>工具</p>
+            <ul><li>Git / GitHub</li><li>Vite</li><li>ESLint</li><li>Bootstrap 5</li><li>GitHub Pages</li></ul>
           </div>
         </div>
+        <p class="next mono">
+          <span>NEXT →</span> TypeScript · Tailwind CSS · Next.js
+        </p>
       </section>
 
       <section id="projects">
-        <h2 style="margin-bottom: 32px">精選作品</h2>
-        <div class="grid">
-          <article class="card">
-            <div class="thumb" data-gif="img/project-1-admin.gif">
-              <img src="img/project-1.jpg" alt="借我穿一下首頁" loading="lazy" />
-              <span class="hint">▶ 看後台操作</span>
-            </div>
-            <div class="body">
-              <span class="num">01</span>
-              <h3>借我穿一下|二手服飾共享平台</h3>
-              <ul class="points">
-                <li>前台以 SCSS 自行切版:分類篩選、搜尋、收藏、側邊購物車</li>
-                <li>後台管理商品、訂單,並可編輯首頁顯示的顧客回饋</li>
-                <li>IntersectionObserver 卡片進場動畫、捲動隱藏導覽列</li>
-              </ul>
-              <ul class="tags">
-                <li>React</li>
-                <li>Redux Toolkit</li>
-                <li>React Hook Form</li>
-                <li>SCSS</li>
-              </ul>
-              <div class="links">
-                <a
-                  class="btn p"
-                  href="https://hthoftt.github.io/react-vite-work2/"
-                  target="_blank"
-                  rel="noopener"
-                  >Demo</a
-                ><a
-                  class="btn"
-                  href="https://github.com/hthoftt/react-vite-work2"
-                  target="_blank"
-                  rel="noopener"
-                  >GitHub</a
-                >
-              </div>
-            </div>
-          </article>
-          <article class="card">
-            <div class="thumb" data-gif="img/project-2-admin.gif">
-              <img src="img/project-2.jpg" alt="精選畫作首頁" loading="lazy" />
-              <span class="hint">▶ 看後台操作</span>
-            </div>
-            <div class="body">
-              <span class="num">02</span>
-              <h3>精選畫作 限量展售|藝術電商</h3>
-              <ul class="points">
-                <li>完整購物流程:購物車、結帳表單驗證、防止重複下單</li>
-                <li>後台管理商品、優惠券、訂單,支援圖片上傳</li>
-                <li>
-                  效能優化:圖片 15.6MB → 0.8MB、後台拆分載入、API 模組化(<a
-                    href="https://github.com/hthoftt/react-vite-work1/pull/1"
-                    target="_blank"
-                    rel="noopener"
-                    >看 PR</a
-                  >)
-                </li>
-              </ul>
-              <ul class="tags">
-                <li>React</li>
-                <li>Redux Toolkit</li>
-                <li>axios</li>
-                <li>Bootstrap</li>
-              </ul>
-              <div class="links">
-                <a
-                  class="btn p"
-                  href="https://hthoftt.github.io/react-vite-work1/"
-                  target="_blank"
-                  rel="noopener"
-                  >Demo</a
-                ><a
-                  class="btn"
-                  href="https://github.com/hthoftt/react-vite-work1"
-                  target="_blank"
-                  rel="noopener"
-                  >GitHub</a
-                >
-              </div>
-            </div>
-          </article>
-          <article class="card">
-            <div class="thumb">
-              <img src="img/project-3.jpg" alt="農產品比價網" loading="lazy" />
-            </div>
-            <div class="body">
-              <span class="num">03</span>
-              <h3>農產品比價網|資料查詢</h3>
-              <ul class="points">
-                <li>原生 JavaScript 以 Fetch 取得農產品交易行情</li>
-                <li>依蔬菜、水果、花卉分類,關鍵字搜尋</li>
-                <li>依上價、中價、下價、平均價、交易量排序</li>
-              </ul>
-              <ul class="tags">
-                <li>JavaScript</li>
-                <li>Fetch API</li>
-                <li>SCSS</li>
-              </ul>
-              <div class="links">
-                <a
-                  class="btn p"
-                  href="https://hthoftt.github.io/js-api/"
-                  target="_blank"
-                  rel="noopener"
-                  >Demo</a
-                ><a
-                  class="btn"
-                  href="https://github.com/hthoftt/js-api"
-                  target="_blank"
-                  rel="noopener"
-                  >GitHub</a
-                >
-              </div>
-            </div>
-          </article>
+        <div class="sh reveal">
+          <span class="sh-no mono">03</span>
+          <h2>精選作品</h2>
+          <span class="sh-en mono">SELECTED WORK</span>
         </div>
+
+        <article class="case reveal">
+          <div class="case-media thumb" data-gif="img/project-1-admin.gif">
+            <img src="img/project-1.jpg" alt="借我穿一下首頁" loading="lazy" />
+            <span class="hint mono">▶ 後台操作</span>
+          </div>
+          <div class="case-body">
+            <span class="case-no">01</span>
+            <p class="case-kicker mono">REACT · E-COMMERCE</p>
+            <h3>借我穿一下</h3>
+            <p class="case-sub">二手潮流服飾共享平台</p>
+            <ul class="points">
+              <li>前台以 SCSS 自行切版:分類篩選、搜尋、收藏、側邊購物車</li>
+              <li>後台管理商品、訂單,並可編輯首頁顯示的顧客回饋</li>
+              <li>IntersectionObserver 卡片進場動畫、捲動隱藏導覽列</li>
+            </ul>
+            <ul class="tags mono">
+              <li>React</li><li>Redux Toolkit</li><li>React Hook Form</li><li>SCSS</li>
+            </ul>
+            <div class="links">
+              <a class="btn btn-solid" href="https://hthoftt.github.io/react-vite-work2/" target="_blank" rel="noopener">Demo ↗</a
+              ><a class="btn" href="https://github.com/hthoftt/react-vite-work2" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="case case-rev reveal">
+          <div class="case-media thumb" data-gif="img/project-2-admin.gif">
+            <img src="img/project-2.jpg" alt="精選畫作商品列表" loading="lazy" />
+            <span class="hint mono">▶ 後台操作</span>
+          </div>
+          <div class="case-body">
+            <span class="case-no">02</span>
+            <p class="case-kicker mono">REACT · PERFORMANCE</p>
+            <h3>精選畫作 限量展售</h3>
+            <p class="case-sub">藝術作品電商網站</p>
+            <ul class="points">
+              <li>完整購物流程:購物車、結帳表單驗證、防止重複下單</li>
+              <li>後台管理商品、優惠券、訂單,支援圖片上傳</li>
+              <li>
+                效能優化:圖片 15.6MB → 0.8MB、後台拆分載入、API 模組化
+                <a href="https://github.com/hthoftt/react-vite-work1/pull/1" target="_blank" rel="noopener">看 PR ↗</a>
+              </li>
+            </ul>
+            <ul class="tags mono">
+              <li>React</li><li>Redux Toolkit</li><li>axios</li><li>Bootstrap</li>
+            </ul>
+            <div class="links">
+              <a class="btn btn-solid" href="https://hthoftt.github.io/react-vite-work1/" target="_blank" rel="noopener">Demo ↗</a
+              ><a class="btn" href="https://github.com/hthoftt/react-vite-work1" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="case reveal">
+          <div class="case-media thumb">
+            <img src="img/project-3.jpg" alt="農產品比價網" loading="lazy" />
+          </div>
+          <div class="case-body">
+            <span class="case-no">03</span>
+            <p class="case-kicker mono">VANILLA JS · DATA</p>
+            <h3>農產品比價網</h3>
+            <p class="case-sub">農產品交易行情查詢</p>
+            <ul class="points">
+              <li>原生 JavaScript 以 Fetch 取得農產品交易行情</li>
+              <li>依蔬菜、水果、花卉分類,關鍵字搜尋</li>
+              <li>依上價、中價、下價、平均價、交易量排序</li>
+            </ul>
+            <ul class="tags mono">
+              <li>JavaScript</li><li>Fetch API</li><li>SCSS</li>
+            </ul>
+            <div class="links">
+              <a class="btn btn-solid" href="https://hthoftt.github.io/js-api/" target="_blank" rel="noopener">Demo ↗</a
+              ><a class="btn" href="https://github.com/hthoftt/js-api" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
       </section>
 
-      <section id="more">
-        <h2 style="margin-bottom: 24px">更多練習</h2>
+      <section id="more" class="reveal">
+        <div class="sh">
+          <span class="sh-no mono">04</span>
+          <h2>更多練習</h2>
+          <span class="sh-en mono">PRACTICE</span>
+        </div>
         <div class="list">
-          <div class="row">
-            <div>
-              <h3>六角西餐廳|響應式網站</h3>
-              <p>首頁、訂餐、登入與訂位表單,支援桌機、平板與手機。</p>
-            </div>
-            <span class="tg">HTML · CSS · RWD</span>
-            <div class="rl">
-              <a href="https://hthoftt.github.io/RWD/" target="_blank" rel="noopener">Demo</a
-              ><a href="https://github.com/hthoftt/RWD" target="_blank" rel="noopener">GitHub</a>
-            </div>
-          </div>
-          <div class="row">
-            <div>
-              <h3>TODO LIST 待辦清單</h3>
-              <p>新增待辦,依全部、待完成、已完成篩選,並可清除已完成項目。</p>
-            </div>
-            <span class="tg">JavaScript · SCSS</span>
-            <div class="rl">
-              <a href="https://hthoftt.github.io/js-todolist/" target="_blank" rel="noopener">Demo</a
-              ><a href="https://github.com/hthoftt/js-todolist" target="_blank" rel="noopener">GitHub</a>
-            </div>
-          </div>
-          <div class="row">
-            <div>
-              <h3>六角學院課程頁</h3>
-              <p>HTML / CSS 靜態切版,含課程比較表與表單。</p>
-            </div>
-            <span class="tg">HTML · CSS</span>
-            <div class="rl">
-              <a href="https://hthoftt.github.io/htmlcss_-/" target="_blank" rel="noopener">Demo</a
-              ><a href="https://github.com/hthoftt/htmlcss_-" target="_blank" rel="noopener">GitHub</a>
-            </div>
-          </div>
+          <a class="row" href="https://hthoftt.github.io/RWD/" target="_blank" rel="noopener">
+            <span class="row-no mono">P-01</span>
+            <span class="row-main"><b>六角西餐廳|響應式網站</b><small>首頁、訂餐、登入與訂位表單,支援桌機、平板與手機。</small></span>
+            <span class="row-tg mono">HTML · CSS · RWD</span>
+            <span class="row-go">↗</span>
+          </a>
+          <a class="row" href="https://hthoftt.github.io/js-todolist/" target="_blank" rel="noopener">
+            <span class="row-no mono">P-02</span>
+            <span class="row-main"><b>TODO LIST 待辦清單</b><small>新增待辦,依全部、待完成、已完成篩選,並可清除已完成項目。</small></span>
+            <span class="row-tg mono">JavaScript · SCSS</span>
+            <span class="row-go">↗</span>
+          </a>
+          <a class="row" href="https://hthoftt.github.io/htmlcss_-/" target="_blank" rel="noopener">
+            <span class="row-no mono">P-03</span>
+            <span class="row-main"><b>六角學院課程頁</b><small>HTML / CSS 靜態切版,含課程比較表與表單。</small></span>
+            <span class="row-tg mono">HTML · CSS</span>
+            <span class="row-go">↗</span>
+          </a>
         </div>
       </section>
 
-      <section id="contact">
-        <div class="sec">
-          <h2>聯絡我</h2>
-          <div>
-            <p class="about">正在尋找前端工程師職缺,歡迎來信聊聊。</p>
-            <div class="mail">
-              <a href="mailto:tonyhung92568@gmail.com">tonyhung92568@gmail.com</a>
-              <button type="button" class="copy" data-copy="tonyhung92568@gmail.com">複製</button>
-            </div>
-            <div class="contact-links">
-              <a class="btn" href="https://github.com/hthoftt" target="_blank" rel="noopener">GitHub</a>
-              <!-- 104 / LinkedIn:填入網址後取消註解 -->
-              <!-- <a class="btn" href="https://www.linkedin.com/in/XXXX" target="_blank" rel="noopener">LinkedIn</a> -->
-              <!-- <a class="btn" href="./resume.pdf" target="_blank" rel="noopener">履歷 PDF</a> -->
-            </div>
-          </div>
+      <section id="contact" class="contact reveal">
+        <p class="contact-kicker mono">05 — CONTACT</p>
+        <h2 class="contact-title">一起把介面<br />蓋得更好。</h2>
+        <p class="contact-text">正在尋找前端工程師職缺,歡迎來信聊聊。</p>
+        <div class="mail">
+          <a href="mailto:tonyhung92568@gmail.com">tonyhung92568@gmail.com</a>
+          <button type="button" class="copy mono" data-copy="tonyhung92568@gmail.com">複製</button>
+        </div>
+        <div class="contact-links">
+          <a class="btn btn-light" href="https://github.com/hthoftt" target="_blank" rel="noopener">GitHub ↗</a>
+          <!-- 104 / LinkedIn:填入網址後取消註解 -->
+          <!-- <a class="btn btn-light" href="https://www.linkedin.com/in/XXXX" target="_blank" rel="noopener">LinkedIn ↗</a> -->
+          <!-- <a class="btn btn-light" href="./resume.pdf" target="_blank" rel="noopener">履歷 PDF ↗</a> -->
         </div>
       </section>
 
-      <footer>
-        © 洪子祥 ·
-        <a href="https://github.com/hthoftt" target="_blank" rel="noopener">github.com/hthoftt</a>
+      <footer class="footer mono">
+        <span>© 2026 洪子祥</span>
+        <span>DRAWN WITH HTML & CSS</span>
+        <a href="#top">BACK TO TOP ↑</a>
       </footer>
     </div>
     <script>
-      // 作品縮圖:滑鼠移入(或手機點一下)播放後台操作 GIF
+      // 作品縮圖:滑鼠移入(手機點一下)播放後台操作 GIF
       document.querySelectorAll(".thumb[data-gif]").forEach((thumb) => {
         const img = thumb.querySelector("img");
         const still = img.src;
@@ -335,6 +322,18 @@
           setTimeout(() => (btn.textContent = "複製"), 1500);
         });
       });
+      // 捲動進場
+      const io = new IntersectionObserver(
+        (entries) =>
+          entries.forEach((e) => {
+            if (e.isIntersecting) {
+              e.target.classList.add("in");
+              io.unobserve(e.target);
+            }
+          }),
+        { threshold: 0.12 },
+      );
+      document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
     </script>
   </body>
 </html>
